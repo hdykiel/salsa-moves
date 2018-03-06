@@ -47,9 +47,9 @@ description = "You're becoming a pro now"
 url = ""
 
 [[items]]
-title = "what's this called?"
-image = "images/full/unknown.png"
-thumb = "images/thumbs/unknown.png"
+title = "Sesha"
+image = "images/full/Sesha.png"
+thumb = "images/thumbs/Sesha.png"
 alt = "Hugrid Theme"
 description = "I count 4 moves!"
 url = "https://youtu.be/MDqkx3CeGPc"

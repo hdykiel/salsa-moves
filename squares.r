@@ -45,7 +45,7 @@ mySquare(0,128, 50, "Inside Turn")
 mySquare(0,24, 0, "Outside Turn")
 mySquare(66,134, 244, "Copa")
 mySquare(66,234, 38, "72")
-mySquare(66,0, 38, "unknown")
+mySquare(66,0, 38, "Sesha")
 mySquare(128,34, 38, "creepy")
 mySquare(0,128, 128, "Casa Caminando")
 
