@@ -1,0 +1,66 @@
+[[items]]
+title = "The Basic Step"
+image = "images/full/Basic Step.png"
+thumb = "images/thumbs/Basic Step.png"
+alt = "Test"
+description = "The step everything is based on!"
+url = "https://youtu.be/wXBqCTmwn-M"
+
+[[items]]
+title = "Inside Turn"
+image = "images/full/Inside Turn.png"
+thumb = "images/thumbs/Inside Turn.png"
+alt = "Hugrid Theme"
+description = "Inside, not outside!"
+url = "https://youtu.be/lUv-FWB-8OU"
+
+[[items]]
+title = "Outside Turn"
+image = "images/full/Outside Turn.png"
+thumb = "images/thumbs/Outside Turn.png"
+alt = "Hugrid Theme"
+description = "Outside, not inside."
+url = "https://youtu.be/2QfylmUwww8"
+
+[[items]]
+title = "Copa"
+image = "images/full/Copa.png"
+thumb = "images/thumbs/Copa.png"
+alt = "Hugrid Theme"
+description = "Where things start to get interesting"
+url = "https://youtu.be/2VrjJ46xCBk"
+
+[[items]]
+title = "The Creepy"
+image = "images/full/creepy.png"
+thumb = "images/thumbs/creepy.png"
+alt = "Hugrid Theme"
+description = "This has got to have a better name"
+url = "https://youtu.be/qI9i4ybrOo0"
+
+[[items]]
+title = "72"
+image = "images/full/72.png"
+thumb = "images/thumbs/72.png"
+alt = "Hugrid Theme"
+description = "You're becoming a pro now"
+url = ""
+
+[[items]]
+title = "what's this called?"
+image = "images/full/unknown.png"
+thumb = "images/thumbs/unknown.png"
+alt = "Hugrid Theme"
+description = "I count 4 moves!"
+url = "https://youtu.be/MDqkx3CeGPc"
+
+[[items]]
+title = "Casa Caminando"
+image = "images/full/Casa Caminando.png"
+thumb = "images/thumbs/Casa Caminando.png"
+alt = "Hugrid Theme"
+description = ""
+url = "https://youtu.be/fJEegnwBNLI"
+
+
+
