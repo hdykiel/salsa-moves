@@ -2,15 +2,15 @@
 
 # Basic Step
 
-mySquare <- function(red, green, blue, text) {
+mySquare <- function(color, text) {
   
   
   rect <- data.frame(x = 1,
-                     colors = rgb(red = red/255,green = green/255,blue = blue/255),
+                     color = color,
                      text = paste(text))
   
   library(ggplot2)
-  full <- ggplot(rect, aes(x, y = 0, fill = colors, label = text)) +
+  full <- ggplot(rect, aes(x, y = 0, fill = color, label = text)) +
     geom_tile(width = .9, height = .9) + # make square tiles
     geom_text(color = "white", size = 13 ) + # add white text in the middle
     scale_fill_identity(guide = "none") + # color the tiles with the colors in the data frame
@@ -18,7 +18,7 @@ mySquare <- function(red, green, blue, text) {
     theme_void()  # remove any axis markings
   
   
-  thumb <- ggplot(rect, aes(x, y = 0, fill = colors, label = text)) +
+  thumb <- ggplot(rect, aes(x, y = 0, fill = color, label = text)) +
     geom_tile(width = .5, height = .5) + # make square tiles
     geom_text(color = "white", size = 8 ) + # add white text in the middle
     scale_fill_identity(guide = "none") + # color the tiles with the colors in the data frame
@@ -40,12 +40,12 @@ mySquare <- function(red, green, blue, text) {
 
 }
 
-mySquare(0,128, 128, "Basic Step")
-mySquare(0,128, 50, "Inside Turn")
-mySquare(0,24, 0, "Outside Turn")
-mySquare(66,134, 244, "Copa")
-mySquare(66,234, 38, "72")
-mySquare(66,0, 38, "Sesha")
-mySquare(128,34, 38, "creepy")
-mySquare(0,128, 128, "Casa Caminando")
-mySquare(66,134, 244, "Cool Music Video")
+mySquare("goldenrod2", "Basic Step")
+mySquare("dodgerblue", "Inside Turn")
+mySquare("gold", "Outside Turn")
+mySquare("cyan2", "Copa")
+mySquare("darkorange", "72")
+mySquare("violetred", "Sesha")
+mySquare("mediumspringgreen", "creepy")
+mySquare("goldenrod2", "Casa Caminando")
+mySquare("dodgerblue", "Cool Music Video")
