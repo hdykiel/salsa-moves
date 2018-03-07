@@ -26,7 +26,7 @@ publishdir = "public"
     buttontext = "See the video"
 
     # Footer text
-    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [Hadrien](https://www.linkedin.com/in/hadrien-dykiel-29a78432/). Contribute to this website by submitting a [pull request](https://github.com/hdykiel/salsa-moves)."
+    footertext = "Contribute to this website by submitting a [pull request](https://github.com/hdykiel/salsa-moves)."
 
     # add extra-css
     # custom_css = ['css/extra1.css', 'css/extra2.css']
